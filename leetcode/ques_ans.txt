@@ -1,0 +1,18 @@
+Q1. Two Sum - twoSum([12,11, 3,33,3], 6), twoSum([2,7,11,15], 9)
+-------------------
+ans 1 - 
+
+var twoSum = function(nums, target) {
+   const obj = {}; // here we r storing the values as key pair after deduction from target .  eg - {2: 1, 7: 0, -2: 2, -6: 3} from [2,7,11,15]
+   const arr = []; // here we r storing the indexes values which after concatenation get the target as values.
+   const len = nums.length; //
+   for(i = 0; i< len; i++){
+       if(obj[nums[i]] >= 0){
+           arr.push(
+               obj[nums[i]], i
+           )
+       }
+       obj[target - nums[i]] = i;
+   }
+    return arr;
+};
