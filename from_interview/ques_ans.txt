@@ -1,0 +1,50 @@
+1 - find mmin num
+
+function minNum(arr){
+    if(arr.length === 0){
+        console.log("add a valid array")
+    } else if(arr.length === 1){
+        return arr[0]
+    } else {
+        let minNum = arr[0]
+        for( i of arr){
+            if(i < minNum){
+                minNum = i
+            }
+        }
+        return minNum
+    }
+}
+
+////////////////////////////
+
+2 - implement sort func
+
+function sort(arr){
+    if(arr.length === 0){
+        console.log("add a valid array")
+    } else if(arr.length === 1){
+        return arr[0]
+    } else {
+        for(i=0; i< arr.length; i++){
+            var outerElem = arr[i]
+            for( j = i+1; j < arr.length; j++ ){
+                var innerElem = arr[j]
+                if(outerElem > innerElem){
+                    arr[i] = innerElem
+                    arr[j] = outerElem
+                    innerElem = arr[j]
+                    outerElem = arr[i]
+                }
+            }
+        }
+        return arr
+    }
+}
+
+
+
+
+
+
+
