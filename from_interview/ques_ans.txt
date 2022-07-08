@@ -16,6 +16,13 @@ function minNum(arr){
     }
 }
 
+bigO
+=====
+O(n) or linear Time Complexity ( as it increase or deduct the execution time as per the arr lengths )
+
+Best case - [1] => O(1)
+Worst case - [2,3,2,1,34,4] => O(n)
+
 ////////////////////////////
 
 2 - implement sort func 
@@ -45,9 +52,12 @@ function sort(arr){
     }
 }
 
+bigO
+====
+
+n * n = O( n ^ 2 ) - Quadratic Time Complexity ( like the 1st ques, running 2 loops so n - 1 for 1 or we can say n for every single loop )
 
 
-
-
-
+Best case - [1] - O(n^2)
+Worst case - [3,4,2,11] - O(n^2)
 
