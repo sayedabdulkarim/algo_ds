@@ -33,6 +33,7 @@ function sort(arr){
             for( j = i+1; j < arr.length; j++ ){
                 var innerElem = arr[j]
                 if(outerElem > innerElem){
+                    // swap
                     arr[i] = innerElem
                     arr[j] = outerElem
                     innerElem = arr[j]
