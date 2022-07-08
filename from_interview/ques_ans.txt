@@ -18,7 +18,9 @@ function minNum(arr){
 
 ////////////////////////////
 
-2 - implement sort func
+2 - implement sort func 
+
+// by comparing next idx to prev idx
 
 function sort(arr){
     if(arr.length === 0){
