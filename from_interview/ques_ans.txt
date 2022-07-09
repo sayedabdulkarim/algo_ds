@@ -1,4 +1,4 @@
-1 - find mmin num
+1 - find mmin num - [3,4,5,1] - [ 1 ]
 
 function minNum(arr){
     if(arr.length === 0){
@@ -25,7 +25,7 @@ Worst case - [2,3,2,1,34,4] => O(n)
 
 ////////////////////////////
 
-2 - implement sort func 
+2 - implement sort func [3,4,5,1] - [1,3,4,5]
 
 // by comparing next idx to prev idx
 
@@ -61,3 +61,66 @@ n * n = O( n ^ 2 ) - Quadratic Time Complexity ( like the 1st ques, running 2 lo
 Best case - [1] - O(n^2)
 Worst case - [3,4,2,11] - O(n^2)
 
+//////////////////////////////////
+check ifSquareExist - [3,4,5,1] - [9,16,25,1] 
+
+//solution 1
+
+function ifSquareExist(arr1, arr2){
+     
+     for(i=0; i < arr1.length; i++){ // n times as per the arr length
+        var isSquare = false
+
+         for(j = 0; j < arr2.length; j++){ // n times as per the arr length
+             if(arr1[i] * arr1[i] === arr2[j]){
+                 isSquare = true
+             }
+              if( j === arr2.length - 1) {
+                  if(!isSquare){
+                      return false
+                  }
+              }
+         }   
+     }
+     return true
+ }
+
+ // O( n ^ 2 )
+
+// solution 2
+
+function ifSquareExist(arr1, arr2){
+    var obj1 = {}
+    var obj2 = {}
+    
+    // create one coomon function for extracting the count for the keys and use for both array
+
+    for( i of arr1 ){ // n
+        obj1[i] = ( obj1[i] || 0 ) + 1
+    }
+    for( i of arr2 ){ // n
+        obj2[i] = ( obj2[i] || 0 ) + 1
+    }
+
+    /// key * 2 is in obj2
+    // obj1 key * 2 === obj2 key
+    
+    for(key in obj1){ // n 
+        if(!obj2[key * key]){
+            return false
+        }
+        if(obj1[key] !== obj2[key * key]){
+            return false
+        }
+        
+    }
+
+    return true;
+ 
+    // return {
+    //     obj1,
+    //     obj2
+    // }
+}
+
+// O(n)
