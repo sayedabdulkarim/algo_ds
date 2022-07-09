@@ -62,7 +62,7 @@ Best case - [1] - O(n^2)
 Worst case - [3,4,2,11] - O(n^2)
 
 //////////////////////////////////
-check ifSquareExist - [3,4,5,1] - [9,16,25,1] 
+3 - check ifSquareExist - [3,4,5,1] - [9,16,25,1] 
 
 //solution 1
 
@@ -124,3 +124,31 @@ function ifSquareExist(arr1, arr2){
 }
 
 // O(n)
+
+///////////////////////////////////////////
+
+4 - Anagram - ("hello") - ("olleh") - same keys exist in both or not
+
+function isAnagram(str1, str2) {
+    function objKey(str){
+        var obj = {}
+
+        for(i of str){
+            obj[i] = (obj[i] || 0) + 1
+        }
+        return obj
+    }
+
+    var obj1 = objKey(str1)
+    var obj2 = objKey(str2)
+
+    for(key in obj1){
+        if(str1.length !== str2.length){
+            return false
+        }
+        if(obj2[key] !== obj1[key]){
+            return false
+        }
+    }
+    return true
+}
