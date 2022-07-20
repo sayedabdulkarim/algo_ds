@@ -153,4 +153,20 @@ function isAnagram(str1, str2) {
     return true
 }
 
-O(n)
+O(n) - linear time Complexity
+
+5 = SumZero [-5,34,6,-6] = [6,-6]
+
+function sumZero(arr){
+     for( i of arr){
+        for(j=1;j < arr.length; j++){
+            if(i + arr[j] == 0){
+                return [i, arr[j]]
+            }
+        }
+     }
+}
+
+6 - unique Value - 
+
+[1,11, 11, 2,2,3].filter((v, i, arr) =>  arr.indexOf(v) === i) -  [1, 11, 2, 3]

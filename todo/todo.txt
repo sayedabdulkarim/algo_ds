@@ -1,1 +1,22 @@
-promises, scope, weakset, classes, object destructring, rest param, spread operator
+promises, scope, weakset, classes, object destructring, rest param, spread operator,
+event bubbling , event loop, symentic tags, box model, flex, pseudo classes and pseudo elements,
+closure, var-let-const, redux., js is single or multi thread and why ? , prototype, what is map and filter function,
+memory management in js, how arrow function different from normal function, 
+what is this if we use with arrow and in normal function, hoisting, event loop,
+search bar function, how to find space and time complexity
+
+
+// https://www.youtube.com/watch?v=abbdJ4Yfm54
+difference between map and forEach, null or undefined, null == undefined || null === undefined
+event delegation,
+
+flatten Array,
+e.g
+var arr = [
+    [1,2],
+    [3,4],
+    [5,[6,7],8]
+]
+arr.flat(2)
+/////
+custom flat,

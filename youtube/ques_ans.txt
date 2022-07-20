@@ -1,0 +1,53 @@
+1 = ///// CURRYING ( number of nested function depends as per the argument )
+
+currying - https://www.youtube.com/watch?v=k5TC9i5HonI
+
+//sum(1)(2)(4)
+
+function sum(a){
+    return function (b) {
+       return function (c) {
+            return a + b + c
+        }
+    }
+}
+
+// sum("mul")(2)(4)
+function sum(a){
+    var oprType = a == "mul" ? "*" : a == "add" ? "+" : a == "sub" ? "-" : "" 
+    return function (b) {
+       return function (c) {
+           console.log(oprType, " ooo")
+            return eval(`${b} ${oprType} ${c}`)
+        }
+    }
+}
+
+// infinite currying - sum(1)(2)(4)...(n) - sumInfinity(2)(2)(5)()
+
+function sumInfinity(a){
+    return function (b) {
+       if(b) return sumInfinity(a + b)
+        return a 
+    }
+}
+
+// function convert to curry fn(1,2,3) from fn(1)(2)(3)
+
+function curry(func){
+    return function curriedFunc(...args){
+        console.log(func, " fff", args, " aaaa")
+        if(args.length >= func.length){
+            return func(...args)
+        } else {
+            return function (...next){
+                return curriedFunc(...args, ...next)
+            }
+        }
+    }
+}
+
+const sum = (a, b, c) => a + b + c
+
+totalSum(2)(2)(5)
+

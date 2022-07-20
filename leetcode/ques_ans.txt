@@ -2,6 +2,8 @@ Q1. Two Sum - twoSum([12,11, 3,33,3], 6), twoSum([2,7,11,15], 9)
 -------------------
 ans 1 - 
 
+1st
+///
 var twoSum = function(nums, target) {
    const obj = {}; // here we r storing the values as key pair after deduction from target .  eg - {2: 1, 7: 0, -2: 2, -6: 3} from [2,7,11,15]
    const arr = []; // here we r storing the indexes values which after concatenation get the target as values.
@@ -16,3 +18,21 @@ var twoSum = function(nums, target) {
    }
     return arr;
 };
+
+2nd - O(n ^ 2)
+
+function double(arr, tar){
+    var res = []
+
+    for(i=0; i<arr.length; i++){
+            for(j= i+1; j<arr.length; j++){
+                if(arr[i] + arr[j] === tar){
+                    res.push(arr[i], arr[j])
+                } else console.log(" no match found .")
+            }
+    }
+    return res;
+}
+
+3rd - O(n)
+
