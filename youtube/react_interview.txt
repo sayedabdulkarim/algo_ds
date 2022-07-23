@@ -1,0 +1,2 @@
+1 - how react compiler works - https://www.youtube.com/watch?v=OMRdBKinfmA
+2 - Babel tutorial - https://www.youtube.com/watch?v=AE-TfB6jGtw&list=PL_euSNU_eLbejfEUD0msUF8xf_Zjz2f8r
