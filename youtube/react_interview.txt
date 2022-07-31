@@ -1,2 +1,54 @@
 1 - how react compiler works - https://www.youtube.com/watch?v=OMRdBKinfmA
 2 - Babel tutorial - https://www.youtube.com/watch?v=AE-TfB6jGtw&list=PL_euSNU_eLbejfEUD0msUF8xf_Zjz2f8r
+
+THINGS TO FIND : (
+    babel is only for react for transpiling jsx into browsser readable code ???
+    ///
+    in babel website enter <h1></h1> , it will show React.createElement
+)
+
+3 - difference between arrow function and normal function javascript - https://www.youtube.com/watch?v=Wdlu_wlj6as
+
+4 - useCallback, useMemo, React.memo - https://www.youtube.com/watch?v=uojLJFt9SzY
+
+// //////////////////
+    React.memo 
+
+    a - create two file Parent and child.js, and in child , add a console to check whether the child component is calling or not.
+    b - 
+    In the Parent component, create one state variable const i.e [ number, setNumber ] = useState(0) ;
+    Then create on handle to increase the number.
+    so now on clicking on button the number will increase and we see the child component is 
+    also calling as per the button clicks.
+
+    So for this we wrap our child component in React.memo i.e
+    //
+    import React, { memo } from 'react'
+
+    const Child1 = React.memo(() => {
+        console.log(" child called")
+        return (
+        <div>Child1</div>
+        )
+    })
+
+    export default Child1
+
+    or we can use     export default memo(Child1)
+////////////////////////////////////////////////////////////
+
+5- router v6
+
+6- react new version changes
+
+7- ref - https://www.youtube.com/watch?v=ScT4ElKd6eo
+
+8- encapsulating  react
+
+9 - unlimited scrolling react
+
+10 - notification toast
+////////////////////////////////////////////////////////
+# - CHECKOUT VIDEOS
+1 - https://www.youtube.com/channel/UCnQkfv879sarKeKm7eMH_dg/playlists
+
