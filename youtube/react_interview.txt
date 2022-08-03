@@ -48,7 +48,66 @@ THINGS TO FIND : (
 9 - unlimited scrolling react
 
 10 - notification toast
-////////////////////////////////////////////////////////
-# - CHECKOUT VIDEOS
-1 - https://www.youtube.com/channel/UCnQkfv879sarKeKm7eMH_dg/playlists
 
+11- code splitting
+
+12 - ssr ( where to use CSR and SSR )
+
+13 - event delegation react
+
+14 - synthetic event
+
+15 - FE 
+///
+    a - security
+    b - performance
+    c - seo
+    d - server side
+    e - socket 
+    f - web-socket
+    g - cookie 
+////////////////////////////////////////////////////////
+
+16- Pros and Cons of ReactJS
+
+17 - Infinite Scroll
+
+18 - Debouncing / Throttling
+
+19 - How to cancel the api resquest
+
+20 - all hooks - https://www.youtube.com/watch?v=LlvBzyy-558&t=7s
+
+21 - shadow DOM vs virtual DOM
+
+22 - why to use functional component instead of class component
+
+23 - context Api and multiple context api
+
+24 - what are render props
+////////////////////////
+
+# - CHECKOUT VIDEOS
+    1 - https://www.youtube.com/channel/UCnQkfv879sarKeKm7eMH_dg/playlists
+    2 - https://www.youtube.com/watch?v=FgXFoSr2Db8&list=PLXQpH_kZIxTWQfh_krE4sI_8etq5rH_z6
+    3 - https://www.youtube.com/watch?v=N-572SrMThE&list=PLGZJDzu5NntRgpuqVtEb9e2tDaRYXRZFG&index=6
+    4 - https://www.youtube.com/watch?v=abbdJ4Yfm54
+    5 - google calendar react
+    6 - typehead
+    7 - microsoft excel  like spreadsheet
+    8 - dynamic form config react with validation 
+    9 - implement progressbar , multiple
+    10 - star rating widget ( how to show case 4.7 or decimal number)
+    11 - Twitter post like text area
+    12 - todo - ( how to remove multiple checked items from the list)
+    13 - design cart page
+    14 - design product listing page withn filters ( pagination, sorting, filtering )
+    15 - tic-tac-toe
+    16 - https://www.youtube.com/watch?v=O2dTW3uNAeQ&list=PLKmmzLM3RgQWCNh6ZxmvKKZOGHH2CYyqm
+
+# interview question
+    1 - https://www.youtube.com/watch?v=hrk-1aDP3X8
+
+////////
+
+21 -

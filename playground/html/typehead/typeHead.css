@@ -1,0 +1,9 @@
+.suggestion_wrapper {
+    border: 3px solid silver;
+    width: 400px;
+    display: none;
+}
+
+.suggestion_wrapper_visible {
+    display: block;
+}
