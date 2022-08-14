@@ -1,2 +1,7 @@
 1- immutable - https://www.youtube.com/watch?v=pslr6SWXFjQ
 2 - Debouncing and Throttling
+
+
+/// algo
+
+1 - aabbccdabdd to a2b2 in javascript

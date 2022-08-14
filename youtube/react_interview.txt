@@ -1,4 +1,7 @@
-1 - how react compiler works - https://www.youtube.com/watch?v=OMRdBKinfmA
+1 - how react compiler works -
+    - https://www.youtube.com/watch?v=OMRdBKinfmA
+    - https://www.youtube.com/watch?v=TjnyFNxQ67Y&t=316s
+//
 2 - Babel tutorial - https://www.youtube.com/watch?v=AE-TfB6jGtw&list=PL_euSNU_eLbejfEUD0msUF8xf_Zjz2f8r
 
 THINGS TO FIND : (
@@ -37,23 +40,27 @@ THINGS TO FIND : (
     or we can use     export default memo(Child1)
 ////////////////////////////////////////////////////////////
 
-5- router v6
+5- router v6 - https://www.youtube.com/watch?v=UjHT_NKR_gU
 
-6- react new version changes
+6- react new version changes 
+    R18 - https://www.youtube.com/watch?v=N0DhCV_-Qbg&t=9s
+    R17 - https://www.youtube.com/watch?v=8D-rWP3c088&t=399s
 
 7- ref - https://www.youtube.com/watch?v=ScT4ElKd6eo
 
-8- encapsulating  react
+8- encapsulating react - check
 
-9 - unlimited scrolling react
+9 - infinite scrolling react - https://www.youtube.com/watch?v=lVgF2OziomM 
 
-10 - notification toast
+10 - notification toast - https://www.youtube.com/watch?v=cOJTshh56Zc
 
-11- code splitting
+11- code splitting - https://www.youtube.com/watch?v=IBrmsyy9R94
 
-12 - ssr ( where to use CSR and SSR )
+12 - ssr ( where to use CSR and SSR ) - check ( onclick button scenario as well )
 
-13 - event delegation react
+13 - event delegation react 
+    - https://www.youtube.com/watch?v=abbdJ4Yfm54 ( JS )
+    
 
 14 - synthetic event
 
@@ -74,7 +81,7 @@ THINGS TO FIND : (
 
 18 - Debouncing / Throttling
 
-19 - How to cancel the api resquest
+19 - How to cancel the api resquest ( axios, fetch )
 
 20 - all hooks - https://www.youtube.com/watch?v=LlvBzyy-558&t=7s
 
@@ -85,6 +92,30 @@ THINGS TO FIND : (
 23 - context Api and multiple context api
 
 24 - what are render props
+
+25 - check useffect without giving [], how much time it is rendering - https://www.youtube.com/watch?v=0ZJgIjIuY7U&t=9s
+
+26 -  cleanup function in useffect
+
+////////////////////////////////////////////
+https://www.youtube.com/watch?v=7YhdqIR2Yzo&list=PLxRVWC-K96b0ktvhd16l3xA6gncuGP7gJ
+27 - reconciliation, diffing algo, 
+
+28 - react fiber
+
+29 - RXJS & Websockets
+
+30 - TypeScript interview question
+
+31 - useTransition() vs useDeferredValue - https://www.youtube.com/watch?v=lDukIAymutM&t=693s
+
+32 - React Batching - https://www.youtube.com/watch?v=f1lFVZCREZ0
+
+33 - shadow dom vs virtual dom react
+
+34 - why react uses node
+
+35 - react error boundaries
 ////////////////////////
 
 # - CHECKOUT VIDEOS
@@ -104,10 +135,9 @@ THINGS TO FIND : (
     14 - design product listing page withn filters ( pagination, sorting, filtering )
     15 - tic-tac-toe
     16 - https://www.youtube.com/watch?v=O2dTW3uNAeQ&list=PLKmmzLM3RgQWCNh6ZxmvKKZOGHH2CYyqm
-
+    17 - https://www.youtube.com/watch?v=HhpbzPMCKDc - toast library
+    18 - https://www.youtube.com/watch?v=QQYeipc_cik&t=182s
 # interview question
     1 - https://www.youtube.com/watch?v=hrk-1aDP3X8
 
-////////
-
-21 -
+//////

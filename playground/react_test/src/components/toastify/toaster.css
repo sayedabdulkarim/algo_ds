@@ -1,0 +1,19 @@
+.toaster {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.notify {
+    animation: toast-in-right;
+    transition: 3s ease;
+}
+
+@keyframes toast-in-right {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
