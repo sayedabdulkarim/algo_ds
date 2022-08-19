@@ -57,12 +57,15 @@ THINGS TO FIND : (
 11- code splitting - https://www.youtube.com/watch?v=IBrmsyy9R94
 
 12 - ssr ( where to use CSR and SSR ) - check ( onclick button scenario as well )
+    - https://www.youtube.com/watch?v=NwyQONeqRXA
 
 13 - event delegation react 
     - https://www.youtube.com/watch?v=abbdJ4Yfm54 ( JS )
-    
+    - https://www.youtube.com/watch?v=16VS048MsfQ&t=181s ( REACT )
 
 14 - synthetic event
+    - https://www.youtube.com/watch?v=16VS048MsfQ&t=181s - 14.00
+    - https://www.youtube.com/watch?v=gsTLQMTPz-g
 
 15 - FE 
 ///
@@ -77,7 +80,7 @@ THINGS TO FIND : (
 
 16- Pros and Cons of ReactJS
 
-17 - Infinite Scroll
+17 - Infinite Scroll - https://www.youtube.com/watch?v=lVgF2OziomM 
 
 18 - Debouncing / Throttling
 
@@ -137,6 +140,10 @@ https://www.youtube.com/watch?v=7YhdqIR2Yzo&list=PLxRVWC-K96b0ktvhd16l3xA6gncuGP
     16 - https://www.youtube.com/watch?v=O2dTW3uNAeQ&list=PLKmmzLM3RgQWCNh6ZxmvKKZOGHH2CYyqm
     17 - https://www.youtube.com/watch?v=HhpbzPMCKDc - toast library
     18 - https://www.youtube.com/watch?v=QQYeipc_cik&t=182s
+    19 - https://www.youtube.com/watch?v=DAWWf7q8sqM&list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP&index=20
+    20 - https://www.youtube.com/watch?v=b7nrXjS6Dqs
+    21 - https://docs.google.com/document/d/13yliGfXu73TW4AgOU4aNkXlyTIox0YthzOEOOZ89tM0/edit#
+    
 # interview question
     1 - https://www.youtube.com/watch?v=hrk-1aDP3X8
 
