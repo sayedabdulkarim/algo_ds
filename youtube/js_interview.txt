@@ -1,6 +1,6 @@
 1- immutable - https://www.youtube.com/watch?v=pslr6SWXFjQ
 2 - Debouncing and Throttling
-
+3 - foreach vs map - youtube.com/watch?v=Yv0Q8jNmBM8
 
 /// algo
 

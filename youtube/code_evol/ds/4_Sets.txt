@@ -1,0 +1,26 @@
+SET
+-------
+
+defn - 
+    1. It is an ds that can hold a collection of values .
+    2. We can store only unique values .
+
+
+SET vs ARRAY
+------------
+    1 - ARRAYs can contain duplicate values but sets cannot. 
+    2 - Searching and deleting an element is faster in SET compare to ARRAYs.
+
+
+/////
+
+const set = new Set([ 1, 2, 3 ])
+
+set.add(5)
+set.delete(5)
+set.size()
+set.clear()
+
+for( i of set ){
+    console.log( i, " iii" ) 
+}

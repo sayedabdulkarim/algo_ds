@@ -1,0 +1,33 @@
+1 - 
+    expect
+    ///
+    fib(2) - [0,1]
+    fib(3) - [0,1,1]
+    fib(4) - [0,1,1, 2]
+
+///
+context - 
+
+1 - first we hv to push the fist tow index data to an array
+2 - then we have to add the last index and second last index, and push it into the array 
+////
+
+function fib(num){
+    var res = []
+
+    for(i = 0; i<=num; i++){
+
+        if(res.length < 2 ){
+            res.push(i)
+        } else {
+            res.push(res[res.length - 1] + res[res.length - 2])
+        }
+        
+    }
+
+    return res
+    
+}
+
+
+O(n) - linear ( as line 18 increase, the iteration will increase )

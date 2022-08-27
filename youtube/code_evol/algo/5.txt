@@ -1,0 +1,48 @@
+Objects and Arrays BigO
+======================
+
+//// OBJECTS ///////
+
+
+const obj  = {
+    name: "Ram",
+    age: 10
+}
+
+defn - An object consist of key value pairs 
+
+
+Time complexity operations
+-----------------------------
+
+1.  insert - O(1)
+2.  remove - O(1)
+3 - Access - O(1)
+4 - Search - O(n)
+
+object methods
+
+5 - Object.keys() - O(n)
+6 - Object.values - O(n)
+6 - Object.entries - O(n)
+
+
+///////////////////////////////////////////
+
+//// ARRAYS /////
+
+defn - its an ordered collection of values 
+
+Time complexity operations
+--------------------------------
+
+1 - insert / remove from end - O(1)
+2 - insert / remove from beginning - O(n)
+3 - Access - O(1)
+4 - Search - O(n)
+
+Array methods
+
+5 - push / pop - O(1)
+6 - shift/ unshift / concat/ slice/ splice - O(n)
+7 - forEach/ map/ filter/ reduce - O(n)

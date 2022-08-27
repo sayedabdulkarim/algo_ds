@@ -1,0 +1,43 @@
+OBJECT
+======
+
+defn - 
+    1 - Its an unordered collection of key - value pairs.
+    2 - The key must be string/ symbol data types
+
+    3 - to get the values, we can use the keys with dot notation or [] notation .
+
+///
+
+const obj = {
+    name: "Ram",
+    age: 21,
+    ["city"]: "ODISHA",
+    sayMyname: function(){
+        console.log(this.name, " nameeee")
+    }
+}
+
+methods
+-------
+
+obj["hobby"] = "video games"  - to add keys  
+
+delete obj["hobby"] - for deleting
+delete objhobby - for deleting
+
+Object.keys - to grab all the keys which returns in an ARRAY 
+Object.values - to grab all the values which returns in an ARRAY 
+Object.entries - to grab all the keys / value as pair in an ARRAY 
+
+
+Time complexity
+/////////////////
+
+insert - 0(1)
+remove - 0(1)
+Access - 0(1)
+Search - 0(n)
+Object.keys() - 0(n)
+Object.values() - 0(n)
+Object.entries() - 0(n)

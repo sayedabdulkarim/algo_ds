@@ -1,0 +1,26 @@
+MAPS
+-------
+
+defn - 
+    1. It is an ds that can hold a collection of values .
+    2. We can store only unique values .
+
+
+SET vs ARRAY
+------------
+    1 - ARRAYs can contain duplicate values but sets cannot. 
+    2 - Searching and deleting an element is faster in SET compare to ARRAYs.
+
+/////
+
+const map = new Map([ [ "a", 21 ], [ "b", 31 ] ])
+
+map.set(5)
+map.delete(5)
+map.size()
+map.clear()
+map.has("a")
+
+for( [key, value] of map ){
+    console.log( key, " key", val, " valll" ) 
+}

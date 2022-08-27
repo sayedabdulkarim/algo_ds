@@ -1,0 +1,26 @@
+//expect
+isPower2(4) - true
+isPower2(6) - false
+isPower2(8) - true
+
+
+function isPower2(num){
+
+    while(num > 1){
+        
+        if(num % 2 !== 0) {
+            return false
+        }
+
+        num = num / 2;        
+
+    }
+
+    return true
+    
+}
+
+
+///
+
+O(logn) -  as we r reducing the input into half on each iteration

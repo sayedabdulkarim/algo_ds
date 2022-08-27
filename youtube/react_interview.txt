@@ -69,6 +69,7 @@ THINGS TO FIND : (
 
 15 - FE 
 ///
+    
     a - security
     b - performance
     c - seo
@@ -76,6 +77,8 @@ THINGS TO FIND : (
     e - socket 
     f - web-socket
     g - cookie 
+    h - implement redis
+
 ////////////////////////////////////////////////////////
 
 16- Pros and Cons of ReactJS
@@ -143,7 +146,7 @@ https://www.youtube.com/watch?v=7YhdqIR2Yzo&list=PLxRVWC-K96b0ktvhd16l3xA6gncuGP
     19 - https://www.youtube.com/watch?v=DAWWf7q8sqM&list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP&index=20
     20 - https://www.youtube.com/watch?v=b7nrXjS6Dqs
     21 - https://docs.google.com/document/d/13yliGfXu73TW4AgOU4aNkXlyTIox0YthzOEOOZ89tM0/edit#
-    
+
 # interview question
     1 - https://www.youtube.com/watch?v=hrk-1aDP3X8
 

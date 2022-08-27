@@ -1,0 +1,87 @@
+QUEUE
+-------
+
+defn - 
+    1 - It follows the principal of FIFO ( First In first out )
+    2 - The stack ds supports two main operations : 
+        a - enqueue, which adds an element to the rear/ tail collection
+        b - dequeue, which removes the oldest, added element from the collection OR
+            remove the element from front/ head.
+
+// implementation
+
+class Queue(){
+    constructor (
+        items: []
+    )
+
+    enqueue: function(elem){
+        this.items.push(elem)
+    }
+    
+
+    dequeue: function(elem){
+        return this.items.shift()
+    }
+    
+
+    peek: function(elem){
+        return this.items[0]
+    }
+    
+    isEmpty: function(elem){
+        return this.items.length == 0 
+    }
+    
+    size: function(elem){
+        return this.items.length 
+    }
+    
+    print: function(elem){
+        console.log(this.items)
+    }
+
+}
+    
+// As this way , the time complexity is O(n), so to optimize this we will implement
+this in object way to get O(1)
+
+class Queue(){
+    constructor(){
+        this.items = {}
+        this.rear = 0
+        this.front = 0
+    }
+
+    enqueu (elem){
+        this.items[this.rear] = elem
+        this.rear++
+    }
+    
+    dequeu (){
+       const item = this.items[this.front] 
+       delete this.items[this.front]
+        this.front += 1
+        return item
+    }
+
+    //// once we will get these above 2, then we can check the rear and front to implement below ones.
+    
+    
+    isEmpty: function(elem){
+        return this.rear - this.front == 0 
+    }
+
+    peek: function(elem){
+        return this.items[this.front ]
+    }
+    
+    size: function(elem){
+        return this.rear - this.front 
+    }
+    
+    print: function(elem){
+        console.log(this.items)
+    }
+
+}

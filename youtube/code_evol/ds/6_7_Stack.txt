@@ -1,0 +1,52 @@
+STACK
+-------
+
+defn - 
+    1 - It follows the principal of LIFO ( Last In first out )
+    2 - The stack ds supports two main operations : 
+        a - push, which adds an element to the collection
+        b - pop, which removes the most recently added element from the collection
+
+// implementation
+
+class Stack(){
+    constructor (
+        items: []
+    )
+
+    push: function(elem){
+        this.items.push(elem)
+    }
+    
+
+    pop: function(elem){
+        return this.items.pop(elem)
+    }
+    
+
+    peek: function(elem){
+        return this.items[this.items.length - 1 ]
+    }
+    
+    isEmpty: function(elem){
+        return this.items.length == 0 
+    }
+    
+    size: function(elem){
+        return this.items.length 
+    }
+    
+    print: function(elem){
+        console.log(this.items)
+    }
+
+}
+    
+Why we nedd stack if array inbuilt methods handle all this operations ??
+
+1 - An array allows random read and write operations, whereas the Stack implements the 
+LIFO principal.
+
+2 - insertion and removal of elemnt in stack is always O[1] i.e constant,  whereas an 
+ARRAY may have O(n) i.e linear time complexity .
+    

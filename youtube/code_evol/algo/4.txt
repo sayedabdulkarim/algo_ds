@@ -1,0 +1,18 @@
+BIG_O
+/////
+
+defn - the worst case complexity of an algorithm is represented using BIG_O.
+
+
+bigO types
+==========
+
+1 - O(n) - when it iterates over entire input nd hence the time complexity is "LINEAR"
+
+2 - O(1) - if the line is executed only once, that is "CONSTANT" 
+
+3 - O(n2) - if there are 2 nested loops , then it is "QUADRATIC"
+
+4 - O(n3) - if there are 3 nested loops , then it is "CUBIC"
+
+5 - O(logn) - if the input size reduced by half in every iteration , then it is "LOGARITHMIC"

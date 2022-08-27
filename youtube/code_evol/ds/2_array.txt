@@ -1,0 +1,29 @@
+ARRAY
+------
+
+defn - 
+    
+    1. It is an ds that can hold a collection of values .
+    2. We can store numbers, boolean, string, objects .
+
+
+/////
+
+const arr = [ 1, 2, 3, 4 ]
+
+arr.push(5) - add to last
+arr.unshift(0) - add to beginning
+arr.pop(4) - remove from last
+arr.shift(5) - remove to beginning
+
+
+time complexity
+---------------
+
+1 - insert/ remove from end  - 0(1)
+2 - insert/ remove from beginning  - 0(n)
+3 - Access - 0(1)
+4 - Search - 0(1)
+5 - Push/ pop - 0(1)
+6 - shift /unshift /concat /slice /splice - 0(n)
+7 - forEach/ map/ filter/ reduce

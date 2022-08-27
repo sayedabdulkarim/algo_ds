@@ -23,3 +23,39 @@ JS Algo Series = https://www.youtube.com/watch?v=tQjd29Rmo_A&list=PLC3y8-rFHvwiR
         return res;
     }
 //////////////////////////
+
+2 - ///////////////////////////////
+    factorial(4) = 24
+    factorial(5) = 120
+
+function factorial(num){
+    var res = 1;
+
+    for(i = 1; i<= num; i++){
+        res *= i
+    }
+    return res;
+}
+
+///////////////////////////////
+
+3 - ///////////////////////////
+
+isPrime(1) = false
+isPrime(5) = true
+isPrime(4) = false
+
+function isPrime(num){
+    
+    for(i = 2; i <= num-1; i++){
+        // console.log(i, " ii")
+         if(num % i === 0){
+             return false
+         } 
+     }
+
+    return true
+
+}
+
+///////////////////

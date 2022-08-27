@@ -1,0 +1,24 @@
+//expect
+isPrime(1) - false
+isPrime(5) - true
+isPrime(4) - false
+
+
+function isPrime(num){
+
+    if(num < 2) return false;
+    
+    for(i = 2; i < num; i++){
+        
+          if(num % i === 0 ){
+                return false      
+          } 
+        
+    }
+
+    return true
+    
+}
+
+
+O(n)
