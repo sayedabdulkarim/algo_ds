@@ -81,17 +81,18 @@ THINGS TO FIND : (
 
 ////////////////////////////////////////////////////////
 
-16- Pros and Cons of ReactJS
+16- Pros and Cons of ReactJS - k
 
-17 - Infinite Scroll - https://www.youtube.com/watch?v=lVgF2OziomM 
+17 - Infinite Scroll - https://www.youtube.com/watch?v=lVgF2OziomM - k
 
-18 - Debouncing / Throttling
+18 - Debouncing / Throttling - https://www.youtube.com/watch?v=cxi25srbYX8 ( check with nodwin, when we click the button does it allow to click  )
 
-19 - How to cancel the api resquest ( axios, fetch )
+19 - How to cancel the api resquest ( axios, fetch ) - https://www.youtube.com/watch?v=cIwpavIhI84 ( check with MERN )
 
 20 - all hooks - https://www.youtube.com/watch?v=LlvBzyy-558&t=7s
 
 21 - shadow DOM vs virtual DOM
+    * shadow -  https://www.youtube.com/watch?v=5AK98MpCc30
 
 22 - why to use functional component instead of class component
 
