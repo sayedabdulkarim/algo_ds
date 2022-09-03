@@ -1,0 +1,33 @@
+
+   expect
+    ///
+    factorial(4) - 24 
+    factorial(5) - 120 
+
+
+
+function factorial(num){
+    var res = 1
+
+    for(i = 1; i<=num; i++){
+          res *= i 
+    }
+
+    return res
+    
+}
+
+O(n) - linear ( as num increase, the iteration will increase )
+
+// recursion way
+
+function factorial (num) {
+
+    if(num == 0) {
+        return 1 
+    }
+    
+    return num * recFact(num - 1) 
+}
+
+O(n) - linear ( as num increase, the iteration will increase )

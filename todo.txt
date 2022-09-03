@@ -12,10 +12,13 @@ code_evol
 
 Todo
 ///
+ code_evol -
 
+1 - fraz - 2  - 2 https://www.youtube.com/watch?v=ipClF88Tkks
 
-1 - ds - 10 - k 
+2 - ds -  28-30 - ( skip LinkedList for now ) - 2 
+3 - algo - 14-25 - 3
 
-2 - react_interview - 5
+4 - react_interview - 20-25 - 4
 
-3 - fraz - 1
+5 - https://www.youtube.com/watch?v=NM-TkKB9obE&list=PLTNmggpKMN8oIJGucPJOMZg9H5vB6JSo2&index=4 ( LinkedList ) -  1

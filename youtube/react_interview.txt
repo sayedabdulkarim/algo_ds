@@ -98,11 +98,11 @@ THINGS TO FIND : (
 
 23 - context Api and multiple context api
 
-24 - what are render props
+24 - what are render props // https://www.youtube.com/watch?v=7VZcTYdoK54
 
 25 - check useffect without giving [], how much time it is rendering - https://www.youtube.com/watch?v=0ZJgIjIuY7U&t=9s
 
-26 -  cleanup function in useffect
+26 -  cleanup function in useffect - https://www.youtube.com/watch?v=5gCtW7RCtQA
 
 ////////////////////////////////////////////
 https://www.youtube.com/watch?v=7YhdqIR2Yzo&list=PLxRVWC-K96b0ktvhd16l3xA6gncuGP7gJ
@@ -147,6 +147,7 @@ https://www.youtube.com/watch?v=7YhdqIR2Yzo&list=PLxRVWC-K96b0ktvhd16l3xA6gncuGP
     19 - https://www.youtube.com/watch?v=DAWWf7q8sqM&list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP&index=20
     20 - https://www.youtube.com/watch?v=b7nrXjS6Dqs
     21 - https://docs.google.com/document/d/13yliGfXu73TW4AgOU4aNkXlyTIox0YthzOEOOZ89tM0/edit#
+    22 - https://www.youtube.com/watch?v=5jiTVkTkPlw&list=PL4ruoTJ8LTT--I8qPdGlyWJdymkJdpTB4
 
 # interview question
     1 - https://www.youtube.com/watch?v=hrk-1aDP3X8

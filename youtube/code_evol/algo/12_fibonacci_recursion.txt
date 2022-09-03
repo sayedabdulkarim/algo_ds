@@ -1,16 +1,9 @@
-1 - 
     expect
     ///
     fib(2) - [0,1]
     fib(3) - [0,1,1]
     fib(4) - [0,1,1, 2]
 
-///
-context - 
-
-1 - first we hv to push the fist tow index data to an array
-2 - then we have to add the last index and second last index, and push it into the array 
-////
 
 function fib(num){
     var res = []
@@ -29,5 +22,21 @@ function fib(num){
     
 }
 
+recursionw way
+---------------
 
-O(n) - linear ( as line 18 increase, the iteration will increase )
+function rFib(num){
+    
+    // base condition for terminate the recursion
+
+    if(num < 2){
+        return num
+    } 
+
+
+    return rFib(num-1) + rFib(num-2)
+}
+
+time complexity
+/////////////////
+O(2 * n)

@@ -1,0 +1,43 @@
+Images 
+======
+    * Compression 
+        * tiny png
+    * Lazy Loading
+    * Progressive Enhancement
+    * Client HTTP hint
+    * Responsive Images
+    * Responsive Images
+    * Adaptive Images
+    * Blur Effect
+    * Solid Primary Color
+
+
+Videos
+======
+    * Progressive Enhancement
+    * Replace GIFS with Videos
+    * Responsive Poster Images
+    * Streaming
+    * Videos with no Audios
+    * Preload
+
+Fonts
+=====
+    * Font display decorator
+    * FLOUT with Class
+    * Data URI
+    * Preload 
+    * Progressive Enhancement
+    * Async Load Css
+    * font face observer
+
+Css
+===
+    * Lazy Loading
+    * critical css rendering
+
+JS
+==
+    * defer vs async
+    * web worker
+    * Lazy Loading

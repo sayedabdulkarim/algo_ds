@@ -1,0 +1,18 @@
+1 - twoSum 
+    - store the arr[i] as key and index as value in an object
+    - create a var which store the result from the target num - arr[i]
+    - and in "if" statement check, if the key value is equal with the compare value in the obj
+    ( use "in" operator to check whether the comparator is exist in the object key ) 
+
+2 - fibonacci
+    - create an empty array
+    - after running the loop to the given number, if the empty array length is less than 2, 
+    then push "i" otherwise (arr.length - 1) + (arr.length - 2) 
+
+5 - isPower2
+   ( where to use while and for ) https://www.youtube.com/watch?v=EBHOo-6xn4A
+    
+    - run the while loop until num > 1
+    - make num as num / 2
+    - check if num % 2 !== 0 return false
+    - else true 

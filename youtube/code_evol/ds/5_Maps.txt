@@ -3,7 +3,6 @@ MAPS
 
 defn - 
     1. It is an ds that can hold a collection of values .
-    2. We can store only unique values .
 
 
 SET vs ARRAY

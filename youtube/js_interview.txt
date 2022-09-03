@@ -3,7 +3,11 @@
 3 - foreach vs map - youtube.com/watch?v=Yv0Q8jNmBM8
 4 - JS-events =  https://www.youtube.com/watch?v=Lp-FL4ErIDo&list=PLMPgoZdlPumcO7fG5CuprOVW11jRNPyTM
 5 - infinite scrolling - https://www.youtube.com/watch?v=xHm6AbNwAw8&list=PLMPgoZdlPumdjYOZ2WO4zTdvH0uxEZ8ii&index=8
-6 - mutation observer
+6 - mutation observer - https://www.youtube.com/watch?v=iSMg9W1CqDU&list=PL8p2I9GklV45z6Cov4omIOsbptPR1kxpg&index=19
+7 - symbol - https://www.youtube.com/watch?v=4J5hnOCj69w
+8 - why var gives undefined and let const gives reference error.
+9 - webworker  - https://www.youtube.com/watch?v=qMRT3TjlsTA&t=5s
+10 - serviceworker  - 
 /// algo
 
 1 - aabbccdabdd to a2b2 in javascript
@@ -12,9 +16,12 @@
 things to watch
 ===============
 
-1- dsa -   https://www.youtube.com/watch?v=xHm6AbNwAw8&list=PLMPgoZdlPumdjYOZ2WO4zTdvH0uxEZ8ii&index=8
+1- dsa with ques -   https://www.youtube.com/watch?v=xHm6AbNwAw8&list=PLMPgoZdlPumdjYOZ2WO4zTdvH0uxEZ8ii&index=8
 
 2 - dsa - https://www.youtube.com/watch?v=sOZwwL_-cBA&list=PL_HlKez9XCSM0bs8P7LtCTGh4rghAD2im
 
 3 - dsa - https://www.youtube.com/watch?v=wZHtZ_VJGKI&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7
 
+4 - dsa with algo ques - https://www.youtube.com/watch?v=0qazuM5UdrY&list=PLTNmggpKMN8pjABpPL_kMx0uDSeVw_ldk
+
+5 - https://www.youtube.com/watch?v=QiOZ5E9b04k - js / react

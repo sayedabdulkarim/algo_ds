@@ -1,0 +1,30 @@
+1 - twoSum - https://www.youtube.com/watch?v=J0U1obg5BEM&list=PLMPgoZdlPumdjYOZ2WO4zTdvH0uxEZ8ii&index=17
+2 - fibonacci
+3 - factorial
+4 - primeNum
+5 - isPower2
+6 - stack implementation
+7 - Queue implementation ( arr way, object way )
+8 - LinkedList implementation
+9 - Best Time to Buy and Sell Stock - https://www.youtube.com/watch?v=ipClF88Tkks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// learn space complexity
