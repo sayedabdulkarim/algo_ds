@@ -5,6 +5,8 @@ defn -
     
     1. It is an ds that can hold a collection of values .
     2. We can store numbers, boolean, string, objects .
+    3. We dont hv to declare size before creating it .
+    4. it starts from 0 index
 
 
 /////

@@ -16,9 +16,35 @@ Todo
 
 1 - fraz - 2  - 2 https://www.youtube.com/watch?v=ipClF88Tkks
 
-2 - ds -  28-30 - ( skip LinkedList for now ) - 2 
+2 - ds -  28-30 - ( skip LinkedList for now ) - 2 - k 
 3 - algo - 14-25 - 3
 
 4 - react_interview - 20-25 - 4
 
-5 - https://www.youtube.com/watch?v=NM-TkKB9obE&list=PLTNmggpKMN8oIJGucPJOMZg9H5vB6JSo2&index=4 ( LinkedList ) -  1
+5 - https://www.youtube.com/watch?v=NM-TkKB9obE&list=PLTNmggpKMN8oIJGucPJOMZg9H5vB6JSo2&index=4 ( LinkedList ) -  1 - k
+
+
+///////////////////////////
+ds = 
+algo = 
+// ask hmd if someone ask to implement stack, LinkedList, hashtable .
+// we hve to implement the class with its methods 
+
+
+react - 
+algo (ques.txt) - 
+
+
+
+=============TARGET=================
+
+1 - code evol - ds / algo
+2 - chirag goel playlist - https://www.youtube.com/watch?v=9JDlZxR8gVw&list=PL4CFloQ4GGWJKu24kuizRUj9KiSO216Bj
+
+3 - resume wih capital number with project links and attach project in tavant  - 
+
+4 - webpack / ds-algo  = UDEMY
+
+5 - fraz ques / algo question / js_interview.txt / check interview question from different companies 
+
+6 - React Interview Ques ( react_interview.txt  )

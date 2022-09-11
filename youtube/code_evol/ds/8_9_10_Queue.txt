@@ -55,13 +55,13 @@ class Queue(){
 
     enqueu (elem){
         this.items[this.rear] = elem
-        this.rear++
+        this.rear++ ( we r adding item from last or rear )
     }
     
     dequeu (){
        const item = this.items[this.front] 
        delete this.items[this.front]
-        this.front += 1
+        this.front += 1 ( we r removing the oldest items so we have to use front )
         return item
     }
 

@@ -133,3 +133,71 @@ function maxProfit(prices){
     }
     return maxProfit
 }
+
+============================================================
+
+10 - unique obj and arr
+
+var arr = [
+    { name: "One", id: 1 },
+    { name: "Two", id: 2 },
+    { name: "Three", id: 3 },
+    { name: "two", id: 2 },
+    { name: "Four", id: 4 },
+]
+var arr = [ 1,2,2,5,6,6,7,8 ]
+
+//uni obj 
+arr.filter((a, i) => arr.findIndex((s) => a.id === s.id) === i)
+
+// uni 
+function uni(arr){
+    var res = []
+
+    for(i of arr){
+        if(res.indexOf(i) == -1){
+            res.push(i)
+        }
+    }
+    return res;
+}
+
+============================================================
+
+11 - inventory
+
+//// add "this" keyword to "inventoryItems = [] ", to reflect in the new object;
+
+a = new inventoryList()
+  
+
+function inventoryList() {
+  // write your code here
+   inventoryItems = [];
+  
+  const checkUnique = str => inventoryItems.find( i => i.itemName == str )
+  
+  this.add = (str) => {
+      if(!checkUnique(str)){
+
+        const obj  = {
+              id: Math.random(),
+              itemName: str
+          }
+
+        inventoryItems.push(obj)
+      } else {
+          console.log("existed")
+      }
+         
+  }
+  
+  this.remove = str => {
+      inventoryItems = inventoryItems?.filter( item => item.itemName != str ); 
+  }
+  
+  this.getList = () => {
+      inventoryItems?.forEach( item => console.log(item)) 
+  }
+  
+}

@@ -7,11 +7,8 @@
 7 - Queue implementation ( arr way, object way )
 8 - LinkedList implementation
 9 - Best Time to Buy and Sell Stock - https://www.youtube.com/watch?v=ipClF88Tkks
-
-
-
-
-
+10 - unique array of numbers nd objects
+11 - inventory list function which returns 3 methods ( add, remove, getList )
 
 
 
@@ -28,3 +25,36 @@
 
 
 //// learn space complexity
+
+
+///
+function inventoryList() {
+  // write your code here
+   this.inventoryItems = [];
+  
+  const checkUnique = str => this.inventoryItems.find( i => i.itemName == str )
+  
+  this.add = (str) => {
+      if(!checkUnique(str)){
+
+        const obj  = {
+              id: Math.random(),
+              itemName: str
+          }
+
+        this.inventoryItems.push(obj)
+      } else {
+          console.log("existed")
+      }
+         
+  }
+  
+  this.remove = str => {
+      this.inventoryItems = this.inventoryItems?.filter( item => item.itemName != str ); 
+  }
+  
+  this.getList = () => {
+      this.inventoryItems?.forEach( item => console.log(item)) 
+  }
+  
+}

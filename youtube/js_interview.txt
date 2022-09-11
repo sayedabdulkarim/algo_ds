@@ -7,7 +7,9 @@
 7 - symbol - https://www.youtube.com/watch?v=4J5hnOCj69w
 8 - why var gives undefined and let const gives reference error.
 9 - webworker  - https://www.youtube.com/watch?v=qMRT3TjlsTA&t=5s
-10 - serviceworker  - 
+10 - serviceworker  -
+11 - check slack imsge
+
 /// algo
 
 1 - aabbccdabdd to a2b2 in javascript
@@ -25,3 +27,7 @@ things to watch
 4 - dsa with algo ques - https://www.youtube.com/watch?v=0qazuM5UdrY&list=PLTNmggpKMN8pjABpPL_kMx0uDSeVw_ldk
 
 5 - https://www.youtube.com/watch?v=QiOZ5E9b04k - js / react
+
+6 - Advance JS - https://www.youtube.com/watch?v=IUFJzLlf2cE&list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG
+
+7 - Advance JS series - https://www.youtube.com/channel/UC0WKTSptW8OoMePQjGAubBQ

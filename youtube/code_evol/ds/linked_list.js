@@ -92,6 +92,23 @@ class LinkedListOne {
         // return { counter, currentNode }
     }
 
+    traverse = (idx) => {
+        // let counter = 0;
+        let currentNode = this.head
+
+        for(let i=0; i<idx; i++){
+            // counter++;
+            currentNode = currentNode.next    
+        }
+        // console.log("currentNode currentNode currentNode")
+        console.log(currentNode, ` I a currentNode at idx = ${idx}`)
+        return currentNode
+    }   
+
+        // 2   10 => 16 => 20
+        //  \ /
+        //   4
+
     insert(idx, data) {
         
         const newNode = {
@@ -108,7 +125,19 @@ class LinkedListOne {
        leaderNode.next = newNode  //
        newNode.next = nextNode
     
+       this.length += 1
     }
+
+    delete = (idx) => {
+        const prevNode = this.traverse( idx - 1 ) 
+        const nextNode = this.traverse( idx + 1 )
+
+        prevNode.next = nextNode
+
+        this.length -= 1
+        // console.log(prevNode, " prevNode")
+        // console.log(nextNode, " nextNode")
+    } 
 
 }
 
