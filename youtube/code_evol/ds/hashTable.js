@@ -99,20 +99,21 @@ class HashTable {
 }
 
 
-const hashOne = new HashTable(1)
+const hashOne = new HashTable(5)
 
 hashOne.set("name", "Abdul")
 hashOne.set("age", "25")
-hashOne.set("city", "ODIS")
-hashOne.set("ytic", "BANG")
-hashOne.set("aeg", "2512345")
-hashOne.set("ega", "hello")
+hashOne.set(1223, "2512")
+// hashOne.set("city", "ODIS")
+// hashOne.set("ytic", "BANG")
+// hashOne.set("aeg", "2512345")
+// hashOne.set("ega", "hello")
 // hashOne.set("eag", "hello 2")
-hashOne.set("color", "red")
-hashOne.set("salary", "100000")
-hashOne.set("work", "FSD")
+// hashOne.set("color", "red")
+// hashOne.set("salary", "100000")
+// hashOne.set("work", "FSD")
 
-// hashOne.get("city")
+hashOne.get("1223")
 hashOne.display()
 
 // console.log(hashOne, " hashhhh")

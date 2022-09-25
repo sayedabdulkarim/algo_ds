@@ -37,107 +37,24 @@
 
 // ============================================================================================================
 
-class Linked {
-    constructor(value) {
-        this.head = {
-            value,
-            next: null
-        }
-        this.tail = this.head
-        this.length = 1
+class HashTable {
+    constructor(size) {
+        this.table = []
     }
 
-    traverse = (idx) => {
-        // let counter = 0;
-        let currentNode = this.head
-
-        for(let i=0; i<idx; i++){
-            // counter++;
-            currentNode = currentNode.next    
-        }
-        // console.log("currentNode currentNode currentNode")
-        // console.log(currentNode, ` I a currentNode at idx = ${idx}`)
-        return currentNode
-    }   
-
-    append = (value) => {
-        const newNode = {
-            value,
-            next: null
-        }
-        this.tail.next = newNode
-        this.tail = newNode
-        this.length += 1
-    }
-
-    prepend(value){
-        const newNode = {
-            value,
-            next: null
-        }     
-        
-        newNode.next = this.head
-        this.head = newNode
-
-        this.length += 1
-    }
-
-    // 2   10 => 16 => 20
-    //  \ /
-    //   4
-
-    insert = (idx, value) => {
-        
-        const newNode = {
-            value,
-            next: null
-        }     
-
-        const prevNode = this.traverse( idx - 1 ) 
-        const nextNode = prevNode.next
-        
-        prevNode.next = newNode
-        newNode.next = nextNode
-        
-        this.length += 1
-    }
-
-    delete = (idx) => {
-        const prevNode = this.traverse( idx - 1 ) 
-        const nextNode = this.traverse( idx + 1 )
-
-        prevNode.next = nextNode
-
-        this.length -= 1
-        // console.log(prevNode, " prevNode")
-        // console.log(nextNode, " nextNode")
-    } 
-
-    print = () => {
-        const arr = []
-
-        for(let i=0; i < this.length; i++){
-            arr.push(this.traverse(i).value)
-        }
-
-        return arr
+    set = (key, value) => {
+        this.table[key] = value
     }
 
 }
 
 
-const Link1 = new Linked(2)
-Link1.append(4)
-Link1.append(10)
-// Link1.append(16)
-// Link1.append(20)
-// Link1.prepend(1)
-// Link1.prepend(11)
-// Link1.insert(1, "4 - I am inserted at 1st index")
-// Link1.traverse(1)
-// Link1.append(24)
-// Link1.delete(1)
-console.log("==================================")
-console.log(Link1, " linkkkk")
-console.log("==================================")
-Link1.print()
+const hashTable = new HashTable(3)
+
+hashTable.set("name", " one")
+hashTable.set("age", " 12345")
+hashTable.set(0987, " 12345")
+// hashTable.set("age-ONE", " 12345")
+// hashTable.set("age-TWO", " 12345")
+
+console.log(hashTable, " hashTable")

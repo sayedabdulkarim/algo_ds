@@ -8,7 +8,7 @@
 8 - why var gives undefined and let const gives reference error.
 9 - webworker  - https://www.youtube.com/watch?v=qMRT3TjlsTA&t=5s
 10 - serviceworker  -
-11 - check slack imsge
+11 - check slack image
 
 /// algo
 
@@ -31,3 +31,9 @@ things to watch
 6 - Advance JS - https://www.youtube.com/watch?v=IUFJzLlf2cE&list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG
 
 7 - Advance JS series - https://www.youtube.com/channel/UC0WKTSptW8OoMePQjGAubBQ
+
+8 - Recursion - https://www.youtube.com/watch?v=oZMEY75S668
+
+9 - Technical Suneja ( Algo Ques ) - https://www.youtube.com/watch?v=LNKqOKtKCpQ&list=PL_HlKez9XCSOi5thYDzipbJ2pEdzop7vx
+
+https://www.youtube.com/c/AllThingsJavaScriptLLC/playlists

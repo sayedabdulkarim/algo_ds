@@ -1,0 +1,29 @@
+* for finding element index in an array
+
+function binarySearch(arr, target){
+
+    
+            var leftIndex = 0;
+            var rightIndex = arr.length - 1
+        
+ 
+    while(leftIndex <= rightIndex){
+
+                   var midIndex = Math.floor((leftIndex + rightIndex) / 2 )
+
+        if(target == arr[midIndex]) {
+            
+        console.log(midIndex, " midddd")
+        
+            return midIndex
+        }
+        if(target <  arr[midIndex]){
+            rightIndex = midIndex -1
+        }
+        else {
+            leftIndex = midIndex + 1
+        }
+    }
+
+    return -1
+}
