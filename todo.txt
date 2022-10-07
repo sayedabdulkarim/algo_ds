@@ -48,3 +48,8 @@ algo (ques.txt) -
 5 - fraz ques / algo question / js_interview.txt / check interview question from different companies 
 
 6 - React Interview Ques ( react_interview.txt  )
+
+
+to watch
+===================
+1 - whatsdev algo ques - ( https://www.youtube.com/watch?v=miiM5JJgrQo&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8 )

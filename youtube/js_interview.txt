@@ -37,3 +37,5 @@ things to watch
 9 - Technical Suneja ( Algo Ques ) - https://www.youtube.com/watch?v=LNKqOKtKCpQ&list=PL_HlKez9XCSOi5thYDzipbJ2pEdzop7vx
 
 https://www.youtube.com/c/AllThingsJavaScriptLLC/playlists
+
+10 - whatsdev( Recursion ) https://www.youtube.com/watch?v=7YyOTYSvptg
