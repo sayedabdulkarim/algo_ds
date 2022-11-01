@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Parent from './components/useMemo_useCb/Parent'
 import InfiniteScroll from "./components/infiniteScrolling"
 import Toaster from './components/toastify'
+import Tree from './components/sidebar/Tree'
+import Sidebar from './components/sidebar/index'
 
 const App = () => {
   
@@ -16,8 +18,11 @@ const App = () => {
       {/* <InfiniteScroll /> */}
 
       {/*  */}
+      <Tree />
 
-      <Toaster />
+      {/* <Sidebar/>  */}
+
+      {/* <Toaster /> */}
     </div>
   )
 }

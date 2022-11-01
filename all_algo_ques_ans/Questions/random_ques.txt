@@ -32,10 +32,16 @@
 16 - maxChar in a string
 17 - fizzBuzz
 18 - chunk
- 
+19 - memoize or caching function - https://www.youtube.com/watch?v=vxggZffOqek&t=269s
+20 - currying - https://www.youtube.com/watch?v=k5TC9i5HonI ( infinit currying - https://www.youtube.com/watch?v=vxggZffOqek&t=269s )
+
+21 - implement :
+        const result = calc.add(10).multiply(5).substract(30).add(10)  - https://www.youtube.com/watch?v=vxggZffOqek&t=269s (20 min) // 30
+22 - implement - tree level sidebar https://www.youtube.com/watch?v=vxggZffOqek&t=269s ( check in D:\leet\algo_ds\playground\react_test\src\App.js )
+
+23 - memoized / caching function - https://www.youtube.com/watch?v=dO9LQsIpavM&t=608s
 
 ///DS - implementation///
-
 
 1 - stack implementation - https://www.youtube.com/watch?v=SbjATifB2M8&list=PLC3y8-rFHvwg6nsAOfC5Is18KB2DrVOJy&index=7
 2 - Queue implementation ( arr way, object way ) - https://www.youtube.com/watch?v=SbjATifB2M8&list=PLC3y8-rFHvwg6nsAOfC5Is18KB2DrVOJy&index=8

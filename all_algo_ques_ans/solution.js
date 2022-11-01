@@ -8,6 +8,7 @@ function twoSum(arr, target){
     for(i=0; i<arr.length; i++){
         var compare = target - arr[i] // comparator value after deducting from the target
         
+        
         if(compare in hashMap){  /// if compare is present as key in hashMap obj 
             
             return [ i, hashMap[compare] ]          
@@ -139,16 +140,17 @@ function maxProfit(prices){
 
 // 7 - unique obj and arr
 
-// var arr = [
-//     { name: "One", id: 1 },
-//     { name: "Two", id: 2 },
-//     { name: "Three", id: 3 },
-//     { name: "two", id: 2 },
-//     { name: "Four", id: 4 },
-// ]
-// var arr = [ 1,2,2,5,6,6,7,8 ]
+var arr = [
+    { name: "One", id: 1 },
+    { name: "Two", id: 2 },
+    { name: "Three", id: 3 },
+    { name: "two", id: 2 },
+    { name: "Four", id: 4 },
+]
+var arr = [ 1,2,2,5,6,6,7,8 ]
 
 //uni obj 
+arr = []
 arr.filter((a, i) => arr.findIndex((s) => a.id === s.id) === i)
 
 // uni 
@@ -321,4 +323,53 @@ function chunk(num, count){
     return chunkedData
 }
 
+/////////////////////////////////////////////////////
 
+// 23 - memoized / caching function
+
+const memoizedFunc = (fn) => {
+    
+    const cache = {}
+    return function(...args){
+        // console.log(args, " ccc")
+        if(cache[args]){
+            return cache[args]
+        }
+        
+        const result = fn(...args)
+        console.log(result, " result")
+        cache[args] = result;
+        return result
+    }
+
+}
+
+function test(num){
+    for(i=1; i<= num; i++){
+        if(i == num){
+            console.log(i, " iii")
+        }
+    }
+}
+
+const fastFunc = memoizedFunc(test)
+
+///SLOW///
+
+// console.time()
+// test(500000000)
+// console.timeEnd()
+
+// console.time()
+// test(500000000)
+// console.timeEnd()
+
+///FAST///
+
+console.time()
+fastFunc(500000000)
+console.timeEnd()
+
+console.time()
+fastFunc(500000000)
+console.timeEnd()
